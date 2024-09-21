@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setSearchTerm } from '../features/itemsSlice';
