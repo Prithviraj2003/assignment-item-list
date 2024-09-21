@@ -38,6 +38,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/helper-create-class-features-plugin": "^7.25.4",
+    "@babel/plugin-bugfix-firefox-class-in-computed-class-key": "^7.25.3",
+    "@babel/plugin-bugfix-safari-class-field-initializer-scope": "^7.25.0",
+    "@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly": "^7.25.0",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-class-static-block": "^7.24.7",
     "@babel/preset-env": "^7.25.4",
     "babel-jest": "^29.7.0"
   },
