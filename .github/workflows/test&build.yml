@@ -1,7 +1,7 @@
-name: Test and Build on PR
+name: Test and Build on Push on Main Branch
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 

@@ -30,28 +30,28 @@ const AddItemForm = () => {
   return (
     <div>
       <button
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-target="#add-item-modal"
         data-bs-toggle="modal"
       >
         Add Item
       </button>
       <div
-        class="modal fade"
+        className="modal fade"
         id="add-item-modal"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2"
-        tabindex="-1"
+        tabIndex="-1"
       >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header mb-3">
-              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header mb-3">
+              <h1 className="modal-title fs-5" id="exampleModalToggleLabel">
                 Add Item
               </h1>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
